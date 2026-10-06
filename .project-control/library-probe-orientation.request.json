@@ -1,0 +1,32 @@
+{
+  "format": "pc-project-amendment/1",
+  "project": "accelerated-ports",
+  "action": "update_orientation",
+  "intent": "Establish paired scientific workload intent and documentation-only boundaries without choosing a translation or starting port work.",
+  "expected_revision": 1,
+  "operation_id": "accelerated-ports-probe-intent-20261006",
+  "payload": {
+    "id": "library-design-probes",
+    "fields": {
+      "purpose": "scVelo and CellRank are reference workloads for discovering reusable Cellerator/Baseplane primitives and eventual scientific demonstrations. Upstream algorithms are evidence, not architecture; preserve scientific and numerical meaning.",
+      "ownership": "Cellerator owns general state, relation, graph, statistical, numerical and iterative computation. Baseplane owns intrinsically sequence-grounded computation only.",
+      "scope": "Documentation and project setup only. No selected translation strategy, port, kernel, library implementation, experiment, benchmark or data processing. No port run is active.",
+      "design_context": "docs/library-design-probes.md in registered repositories cellrank and scvelo; use AGENTS.md for workflow and delegation guidance."
+    },
+    "anchors": [
+      {
+        "project": "accelerated-ports",
+        "repository": "cellrank",
+        "path": "docs/library-design-probes.md",
+        "content_sha256": "5eaa1b811e2b5c9c5a904ad700224707e61a8b80826724c12b382fd9c6886b3e"
+      },
+      {
+        "project": "accelerated-ports",
+        "repository": "scvelo",
+        "path": "docs/library-design-probes.md",
+        "content_sha256": "9785aa1ac079bca0672c585ad4c54ccae78d7d35a76302b0db0bc82e638270cd"
+      }
+    ]
+  },
+  "mode": "preview"
+}

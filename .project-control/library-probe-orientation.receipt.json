@@ -1,0 +1,85 @@
+{
+  "status": "applied",
+  "operation_id": "accelerated-ports-probe-intent-20261006",
+  "revision": 2,
+  "affected": [],
+  "changes": [
+    {
+      "action": "update_orientation",
+      "kind": "orientation",
+      "id": "library-design-probes"
+    }
+  ],
+  "invalidations": [
+    {
+      "kind": "graph",
+      "entity_id": "docs/library-design-probes.md"
+    },
+    {
+      "kind": "search",
+      "entity_id": "docs/library-design-probes.md"
+    },
+    {
+      "kind": "orientation",
+      "entity_id": "docs/library-design-probes.md"
+    },
+    {
+      "kind": "graph",
+      "entity_id": "library-design-probes"
+    },
+    {
+      "kind": "search",
+      "entity_id": "library-design-probes"
+    },
+    {
+      "kind": "orientation",
+      "entity_id": "library-design-probes"
+    }
+  ],
+  "receipt": {
+    "status": "applied",
+    "operation_id": "accelerated-ports-probe-intent-20261006",
+    "revision": 2,
+    "affected": [],
+    "changes": [
+      {
+        "action": "update_orientation",
+        "kind": "orientation",
+        "id": "library-design-probes"
+      }
+    ],
+    "invalidations": [
+      {
+        "kind": "graph",
+        "entity_id": "docs/library-design-probes.md"
+      },
+      {
+        "kind": "search",
+        "entity_id": "docs/library-design-probes.md"
+      },
+      {
+        "kind": "orientation",
+        "entity_id": "docs/library-design-probes.md"
+      },
+      {
+        "kind": "graph",
+        "entity_id": "library-design-probes"
+      },
+      {
+        "kind": "search",
+        "entity_id": "library-design-probes"
+      },
+      {
+        "kind": "orientation",
+        "entity_id": "library-design-probes"
+      }
+    ]
+  },
+  "project_revision": 2,
+  "projection": {
+    "snapshot": true,
+    "markdown": true,
+    "error": null,
+    "revision": 2
+  }
+}

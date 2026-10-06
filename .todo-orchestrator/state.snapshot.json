@@ -1,0 +1,336 @@
+{
+  "generated_at": "2026-10-06T14:29:21Z",
+  "project": {
+    "configuration": {
+      "busy_timeout_ms": 5000,
+      "claim_lease_seconds": 7200,
+      "context_budget_bytes": 12000,
+      "legacy_review_days": {
+        "blocked": 7,
+        "in_progress": 3,
+        "planned": 3,
+        "stale": 3
+      },
+      "resource_lease_seconds": 300,
+      "workflow_front_door": "project-control"
+    },
+    "created_at": "2026-10-06T14:17:31Z",
+    "project_name": "cellrank",
+    "project_uuid": "1fe1b4ab-7379-4f47-a4f7-1865ddb446aa",
+    "schema_version": 2
+  },
+  "project_revision": 2,
+  "schema_version": 2,
+  "semantic_context": {
+    "declarations": [],
+    "invalidations": [
+      {
+        "entity_id": "docs/library-design-probes.md",
+        "id": "321e3ae0-3f6a-42f6-adec-7e1804e5badd",
+        "kind": "search",
+        "reason": "update_orientation",
+        "revision": 2
+      },
+      {
+        "entity_id": "docs/library-design-probes.md",
+        "id": "92706356-b133-45dc-9a98-9927d2c39e96",
+        "kind": "orientation",
+        "reason": "update_orientation",
+        "revision": 2
+      },
+      {
+        "entity_id": "library-design-probes",
+        "id": "a16b7012-5a89-4abd-8db4-310521a3d7be",
+        "kind": "graph",
+        "reason": "update_orientation",
+        "revision": 2
+      },
+      {
+        "entity_id": "library-design-probes",
+        "id": "bddf0619-e004-4665-8346-92b7bd004168",
+        "kind": "search",
+        "reason": "update_orientation",
+        "revision": 2
+      },
+      {
+        "entity_id": "docs/library-design-probes.md",
+        "id": "c6801f21-678a-4e87-9315-1b4f1fddd2e7",
+        "kind": "graph",
+        "reason": "update_orientation",
+        "revision": 2
+      },
+      {
+        "entity_id": "library-design-probes",
+        "id": "cda6125b-fbcf-4c3c-aeb8-1f6761b54f30",
+        "kind": "orientation",
+        "reason": "update_orientation",
+        "revision": 2
+      }
+    ],
+    "orientation": [
+      {
+        "created_at": "2026-10-06T14:29:21Z",
+        "field_freshness": {
+          "design_context": {
+            "sources": [
+              {
+                "source": {
+                  "content_sha256": "5eaa1b811e2b5c9c5a904ad700224707e61a8b80826724c12b382fd9c6886b3e",
+                  "path": "docs/library-design-probes.md",
+                  "project": "accelerated-ports",
+                  "repository": "cellrank"
+                },
+                "status": "unavailable"
+              },
+              {
+                "source": {
+                  "content_sha256": "9785aa1ac079bca0672c585ad4c54ccae78d7d35a76302b0db0bc82e638270cd",
+                  "path": "docs/library-design-probes.md",
+                  "project": "accelerated-ports",
+                  "repository": "scvelo"
+                },
+                "status": "unavailable"
+              }
+            ],
+            "status": "unavailable"
+          },
+          "ownership": {
+            "sources": [
+              {
+                "source": {
+                  "content_sha256": "5eaa1b811e2b5c9c5a904ad700224707e61a8b80826724c12b382fd9c6886b3e",
+                  "path": "docs/library-design-probes.md",
+                  "project": "accelerated-ports",
+                  "repository": "cellrank"
+                },
+                "status": "unavailable"
+              },
+              {
+                "source": {
+                  "content_sha256": "9785aa1ac079bca0672c585ad4c54ccae78d7d35a76302b0db0bc82e638270cd",
+                  "path": "docs/library-design-probes.md",
+                  "project": "accelerated-ports",
+                  "repository": "scvelo"
+                },
+                "status": "unavailable"
+              }
+            ],
+            "status": "unavailable"
+          },
+          "purpose": {
+            "sources": [
+              {
+                "source": {
+                  "content_sha256": "5eaa1b811e2b5c9c5a904ad700224707e61a8b80826724c12b382fd9c6886b3e",
+                  "path": "docs/library-design-probes.md",
+                  "project": "accelerated-ports",
+                  "repository": "cellrank"
+                },
+                "status": "unavailable"
+              },
+              {
+                "source": {
+                  "content_sha256": "9785aa1ac079bca0672c585ad4c54ccae78d7d35a76302b0db0bc82e638270cd",
+                  "path": "docs/library-design-probes.md",
+                  "project": "accelerated-ports",
+                  "repository": "scvelo"
+                },
+                "status": "unavailable"
+              }
+            ],
+            "status": "unavailable"
+          },
+          "scope": {
+            "sources": [
+              {
+                "source": {
+                  "content_sha256": "5eaa1b811e2b5c9c5a904ad700224707e61a8b80826724c12b382fd9c6886b3e",
+                  "path": "docs/library-design-probes.md",
+                  "project": "accelerated-ports",
+                  "repository": "cellrank"
+                },
+                "status": "unavailable"
+              },
+              {
+                "source": {
+                  "content_sha256": "9785aa1ac079bca0672c585ad4c54ccae78d7d35a76302b0db0bc82e638270cd",
+                  "path": "docs/library-design-probes.md",
+                  "project": "accelerated-ports",
+                  "repository": "scvelo"
+                },
+                "status": "unavailable"
+              }
+            ],
+            "status": "unavailable"
+          }
+        },
+        "id": "library-design-probes",
+        "kind": "orientation",
+        "origin": "project_declared",
+        "payload": {
+          "anchors": [
+            {
+              "content_sha256": "5eaa1b811e2b5c9c5a904ad700224707e61a8b80826724c12b382fd9c6886b3e",
+              "path": "docs/library-design-probes.md",
+              "project": "accelerated-ports",
+              "repository": "cellrank"
+            },
+            {
+              "content_sha256": "9785aa1ac079bca0672c585ad4c54ccae78d7d35a76302b0db0bc82e638270cd",
+              "path": "docs/library-design-probes.md",
+              "project": "accelerated-ports",
+              "repository": "scvelo"
+            }
+          ],
+          "fields": {
+            "design_context": "docs/library-design-probes.md in registered repositories cellrank and scvelo; use AGENTS.md for workflow and delegation guidance.",
+            "ownership": "Cellerator owns general state, relation, graph, statistical, numerical and iterative computation. Baseplane owns intrinsically sequence-grounded computation only.",
+            "purpose": "scVelo and CellRank are reference workloads for discovering reusable Cellerator/Baseplane primitives and eventual scientific demonstrations. Upstream algorithms are evidence, not architecture; preserve scientific and numerical meaning.",
+            "scope": "Documentation and project setup only. No selected translation strategy, port, kernel, library implementation, experiment, benchmark or data processing. No port run is active."
+          },
+          "id": "library-design-probes"
+        },
+        "retired": 0,
+        "revision": 2,
+        "task_id": null,
+        "version": 1
+      }
+    ],
+    "project_revision": 2,
+    "project_uuid": "1fe1b4ab-7379-4f47-a4f7-1865ddb446aa",
+    "skill_uses": []
+  },
+  "snapshot_version": 3,
+  "tables": {
+    "barrier_requirements": [],
+    "barriers": [],
+    "checkpoint_gates": [],
+    "checkpoint_interfaces": [],
+    "checkpoints": [],
+    "decisions": [],
+    "events": [
+      {
+        "actor_session_id": null,
+        "entity_id": "1fe1b4ab-7379-4f47-a4f7-1865ddb446aa",
+        "entity_type": "project",
+        "event_type": "project.bootstrapped",
+        "payload_json": "{\"project_name\": \"cellrank\"}",
+        "revision": 1,
+        "seq": 1,
+        "timestamp": "2026-10-06T14:17:31Z"
+      },
+      {
+        "actor_session_id": null,
+        "entity_id": "1fe1b4ab-7379-4f47-a4f7-1865ddb446aa",
+        "entity_type": "project",
+        "event_type": "project.amended",
+        "payload_json": "{\"changes\": [{\"action\": \"update_orientation\", \"id\": \"library-design-probes\", \"kind\": \"orientation\"}], \"invalidations\": [{\"entity_id\": \"docs/library-design-probes.md\", \"kind\": \"graph\"}, {\"entity_id\": \"docs/library-design-probes.md\", \"kind\": \"search\"}, {\"entity_id\": \"docs/library-design-probes.md\", \"kind\": \"orientation\"}, {\"entity_id\": \"library-design-probes\", \"kind\": \"graph\"}, {\"entity_id\": \"library-design-probes\", \"kind\": \"search\"}, {\"entity_id\": \"library-design-probes\", \"kind\": \"orientation\"}], \"operation_id\": \"accelerated-ports-probe-intent-20261006\", \"principal\": \"project-control-mutator\"}",
+        "revision": 2,
+        "seq": 2,
+        "timestamp": "2026-10-06T14:29:21Z"
+      }
+    ],
+    "evidence": [],
+    "gates": [],
+    "handoffs": [],
+    "interface_consumers": [],
+    "interfaces": [],
+    "invariants": [],
+    "live_recovery_audit": [],
+    "migration_warnings": [],
+    "named_locks": [],
+    "ownership_scopes": [],
+    "project_amendments": [
+      {
+        "created_at": "2026-10-06T14:29:07Z",
+        "operation_id": "accelerated-ports-probe-intent-20261006",
+        "receipt_json": "{\"affected\":[],\"changes\":[{\"action\":\"update_orientation\",\"id\":\"library-design-probes\",\"kind\":\"orientation\"}],\"invalidations\":[{\"entity_id\":\"docs/library-design-probes.md\",\"kind\":\"graph\"},{\"entity_id\":\"docs/library-design-probes.md\",\"kind\":\"search\"},{\"entity_id\":\"docs/library-design-probes.md\",\"kind\":\"orientation\"},{\"entity_id\":\"library-design-probes\",\"kind\":\"graph\"},{\"entity_id\":\"library-design-probes\",\"kind\":\"search\"},{\"entity_id\":\"library-design-probes\",\"kind\":\"orientation\"}],\"operation_id\":\"accelerated-ports-probe-intent-20261006\",\"revision\":2,\"status\":\"applied\"}",
+        "request_hash": "92a3d257a71a5453f1d9a49f38247ae51dfd84208fea58da7745e44950c97e2c",
+        "request_json": "{\"action\":\"update_orientation\",\"expected_revision\":1,\"format\":\"pc-project-amendment/1\",\"intent\":\"Establish paired scientific workload intent and documentation-only boundaries without choosing a translation or starting port work.\",\"mode\":\"preview\",\"operation_id\":\"accelerated-ports-probe-intent-20261006\",\"payload\":{\"anchors\":[{\"content_sha256\":\"5eaa1b811e2b5c9c5a904ad700224707e61a8b80826724c12b382fd9c6886b3e\",\"path\":\"docs/library-design-probes.md\",\"project\":\"accelerated-ports\",\"repository\":\"cellrank\"},{\"content_sha256\":\"9785aa1ac079bca0672c585ad4c54ccae78d7d35a76302b0db0bc82e638270cd\",\"path\":\"docs/library-design-probes.md\",\"project\":\"accelerated-ports\",\"repository\":\"scvelo\"}],\"fields\":{\"design_context\":\"docs/library-design-probes.md in registered repositories cellrank and scvelo; use AGENTS.md for workflow and delegation guidance.\",\"ownership\":\"Cellerator owns general state, relation, graph, statistical, numerical and iterative computation. Baseplane owns intrinsically sequence-grounded computation only.\",\"purpose\":\"scVelo and CellRank are reference workloads for discovering reusable Cellerator/Baseplane primitives and eventual scientific demonstrations. Upstream algorithms are evidence, not architecture; preserve scientific and numerical meaning.\",\"scope\":\"Documentation and project setup only. No selected translation strategy, port, kernel, library implementation, experiment, benchmark or data processing. No port run is active.\"},\"id\":\"library-design-probes\"},\"project\":\"accelerated-ports\"}",
+        "review_json": "{\"affected\":[],\"affected_digest\":\"4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945\",\"canonical_payload\":{\"anchors\":[{\"content_sha256\":\"5eaa1b811e2b5c9c5a904ad700224707e61a8b80826724c12b382fd9c6886b3e\",\"path\":\"docs/library-design-probes.md\",\"project\":\"accelerated-ports\",\"repository\":\"cellrank\"},{\"content_sha256\":\"9785aa1ac079bca0672c585ad4c54ccae78d7d35a76302b0db0bc82e638270cd\",\"path\":\"docs/library-design-probes.md\",\"project\":\"accelerated-ports\",\"repository\":\"scvelo\"}],\"fields\":{\"design_context\":\"docs/library-design-probes.md in registered repositories cellrank and scvelo; use AGENTS.md for workflow and delegation guidance.\",\"ownership\":\"Cellerator owns general state, relation, graph, statistical, numerical and iterative computation. Baseplane owns intrinsically sequence-grounded computation only.\",\"purpose\":\"scVelo and CellRank are reference workloads for discovering reusable Cellerator/Baseplane primitives and eventual scientific demonstrations. Upstream algorithms are evidence, not architecture; preserve scientific and numerical meaning.\",\"scope\":\"Documentation and project setup only. No selected translation strategy, port, kernel, library implementation, experiment, benchmark or data processing. No port run is active.\"},\"id\":\"library-design-probes\"},\"changes\":[{\"action\":\"update_orientation\",\"id\":\"library-design-probes\",\"kind\":\"orientation\"}],\"invalidation_entities\":[\"docs/library-design-probes.md\",\"library-design-probes\"],\"invalidations\":[{\"entity_id\":\"docs/library-design-probes.md\",\"kind\":\"graph\"},{\"entity_id\":\"docs/library-design-probes.md\",\"kind\":\"search\"},{\"entity_id\":\"docs/library-design-probes.md\",\"kind\":\"orientation\"},{\"entity_id\":\"library-design-probes\",\"kind\":\"graph\"},{\"entity_id\":\"library-design-probes\",\"kind\":\"search\"},{\"entity_id\":\"library-design-probes\",\"kind\":\"orientation\"}],\"kind\":\"orientation\",\"noop\":false,\"sources\":[{\"content_sha256\":\"5eaa1b811e2b5c9c5a904ad700224707e61a8b80826724c12b382fd9c6886b3e\",\"path\":\"docs/library-design-probes.md\",\"project\":\"accelerated-ports\",\"project_uuid\":\"1fe1b4ab-7379-4f47-a4f7-1865ddb446aa\",\"repository\":\"cellrank\",\"revision\":1},{\"content_sha256\":\"9785aa1ac079bca0672c585ad4c54ccae78d7d35a76302b0db0bc82e638270cd\",\"path\":\"docs/library-design-probes.md\",\"project\":\"accelerated-ports\",\"project_uuid\":\"1fe1b4ab-7379-4f47-a4f7-1865ddb446aa\",\"repository\":\"scvelo\",\"revision\":1}],\"trust_digest\":\"44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a\"}"
+      }
+    ],
+    "project_declarations": [
+      {
+        "created_at": "2026-10-06T14:29:21Z",
+        "id": "library-design-probes",
+        "kind": "orientation",
+        "origin": "project_declared",
+        "payload_json": "{\"anchors\":[{\"content_sha256\":\"5eaa1b811e2b5c9c5a904ad700224707e61a8b80826724c12b382fd9c6886b3e\",\"path\":\"docs/library-design-probes.md\",\"project\":\"accelerated-ports\",\"repository\":\"cellrank\"},{\"content_sha256\":\"9785aa1ac079bca0672c585ad4c54ccae78d7d35a76302b0db0bc82e638270cd\",\"path\":\"docs/library-design-probes.md\",\"project\":\"accelerated-ports\",\"repository\":\"scvelo\"}],\"fields\":{\"design_context\":\"docs/library-design-probes.md in registered repositories cellrank and scvelo; use AGENTS.md for workflow and delegation guidance.\",\"ownership\":\"Cellerator owns general state, relation, graph, statistical, numerical and iterative computation. Baseplane owns intrinsically sequence-grounded computation only.\",\"purpose\":\"scVelo and CellRank are reference workloads for discovering reusable Cellerator/Baseplane primitives and eventual scientific demonstrations. Upstream algorithms are evidence, not architecture; preserve scientific and numerical meaning.\",\"scope\":\"Documentation and project setup only. No selected translation strategy, port, kernel, library implementation, experiment, benchmark or data processing. No port run is active.\"},\"id\":\"library-design-probes\"}",
+        "retired": 0,
+        "revision": 2,
+        "task_id": null,
+        "version": 1
+      }
+    ],
+    "project_fragment_invalidations": [
+      {
+        "entity_id": "docs/library-design-probes.md",
+        "id": "321e3ae0-3f6a-42f6-adec-7e1804e5badd",
+        "kind": "search",
+        "reason": "update_orientation",
+        "revision": 2
+      },
+      {
+        "entity_id": "docs/library-design-probes.md",
+        "id": "92706356-b133-45dc-9a98-9927d2c39e96",
+        "kind": "orientation",
+        "reason": "update_orientation",
+        "revision": 2
+      },
+      {
+        "entity_id": "library-design-probes",
+        "id": "a16b7012-5a89-4abd-8db4-310521a3d7be",
+        "kind": "graph",
+        "reason": "update_orientation",
+        "revision": 2
+      },
+      {
+        "entity_id": "library-design-probes",
+        "id": "bddf0619-e004-4665-8346-92b7bd004168",
+        "kind": "search",
+        "reason": "update_orientation",
+        "revision": 2
+      },
+      {
+        "entity_id": "docs/library-design-probes.md",
+        "id": "c6801f21-678a-4e87-9315-1b4f1fddd2e7",
+        "kind": "graph",
+        "reason": "update_orientation",
+        "revision": 2
+      },
+      {
+        "entity_id": "library-design-probes",
+        "id": "cda6125b-fbcf-4c3c-aeb8-1f6761b54f30",
+        "kind": "orientation",
+        "reason": "update_orientation",
+        "revision": 2
+      }
+    ],
+    "resource_classes": [],
+    "resource_instances": [],
+    "resource_requests": [],
+    "task_artifacts": [],
+    "task_completion_gates": [],
+    "task_dependencies": [],
+    "task_invariants": [],
+    "task_locks": [],
+    "tasks": [],
+    "workflow_context_fragments": [],
+    "workflow_integration_queue": [],
+    "workflow_lane_tasks": [],
+    "workflow_lanes": [],
+    "workflow_message_receipts": [],
+    "workflow_message_recipients": [],
+    "workflow_messages": [],
+    "workflow_patch_artifacts": [],
+    "workflow_recovery_audit": [],
+    "workflow_rendezvous": [],
+    "workflow_rendezvous_arrivals": [],
+    "workflow_rendezvous_participants": [],
+    "workflow_run_charters": [],
+    "workflow_runs": [],
+    "workflow_workspaces": []
+  },
+  "workflow_snapshot_version": 1
+}
